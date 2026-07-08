@@ -23,13 +23,22 @@
 // console.log(availableProducts);
 
 
-const redius = 7;
-const area = Math.PI * redius;
+// const redius = 7;
+// const area = Math.PI * redius;
 
-console.log(area);
+// console.log(area);
 
 
+let count = 0;
+count = count + 1;
+console.log(count) ;
 
+
+count = count + 1;
+console.log(count);
+
+const PI = 3.14;
+console.log(PI);
 
 
 

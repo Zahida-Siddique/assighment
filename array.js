@@ -29,16 +29,74 @@
 // console.log(area);
 
 
-let count = 0;
-count = count + 1;
-console.log(count) ;
+// let count = 0;
+// count = count + 1;
+// console.log(count) ;
 
 
-count = count + 1;
-console.log(count);
+// count = count + 1;
+// console.log(count);
 
-const PI = 3.14;
-console.log(PI);
+// const PI = 3.14;
+// console.log(PI);
+
+
+
+// const redius = 9 ;
+// const area = Math.PI * redius * redius ;
+
+// console.log(area);
+
+
+
+// const redius = 6;
+// const area = Math.PI * redius * redius;
+// console.log(area);
+
+
+// const name = " sara Khan ";
+// // console.log(name);
+// console.log("name");
+// console.log("name" .length);
+// console.log(`${name.trim().toUpperCase()}`);
+// console.log(`${name.trim().toLowerCase()}`);
+// // console.log(name.toLowerCase());
+
+
+// const input = "25px";
+// console.log(parseInt(input,10));
+// console.log(Number(input));
+
+
+// const age = "years 18";
+// console.log(parseInt("150age",10));
+// console.log(Number("age150", 10));
+
+//string convert to number pluse 5
+// const age = "25";
+// const ageNumber = parseInt(age, 10) + 5 ;
+
+// console.log(ageNumber);
+// console.log(typeof ageNumber);
+
+// let a = "10";
+
+// a = Number(a);
+
+// console.log(a + 10);
+// email normilze
+const id = " ABC@GMAIL.COM ";
+const cleaned = id.trim().toLowerCase();
+
+console.log(cleaned);
+console.log(cleaned === "abc@gmail.com");
+console.log(cleaned.includes("@"));
+
+
+
+
+
+
 
 
 

@@ -85,19 +85,36 @@
 
 // console.log(a + 10);
 // email normilze
-const id = " ABC@GMAIL.COM ";
-const cleaned = id.trim().toLowerCase();
+// const id = " ABC@GMAIL.COM ";
+// const cleaned = id.trim().toLowerCase();
 
-console.log(cleaned);
-console.log(cleaned === "abc@gmail.com");
-console.log(cleaned.includes("@"));
-
-
+// console.log(cleaned);
+// console.log(cleaned === "abc@gmail.com");
+// console.log(cleaned.includes("@"));
 
 
+//if / else
+const isloggedin = true;
+
+let status;
+
+if (isloggedin) {
+    status = "online";
+} else {
+    status = "offline";
+}
+console.log(status);
 
 
 
+
+
+// turnary operator
+const isloggedin = true;
+
+const status = isloggedin ? "online" : "offline";
+
+console.log(status);
 
 
 

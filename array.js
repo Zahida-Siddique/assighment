@@ -94,27 +94,86 @@
 
 
 //if / else
-const isloggedin = true;
+// const isloggedin = true;
 
-let status;
+// let status;
 
-if (isloggedin) {
-    status = "online";
+// if (isloggedin) {
+//     status = "online";
+// } else {
+//     status = "offline";
+// }
+// console.log(status);
+
+
+
+
+
+// // turnary operator
+// const isloggedin = true;
+
+// const status = isloggedin ? "online" : "offline";
+
+// console.log(status);
+
+
+// const isloggedin = true;
+// let status;
+
+// if (isloggedin) {
+//     status = "online";
+
+// } else {
+//     status = "offline";
+// }
+// console.log(status);
+
+
+// const isloggedin = true;
+// const status = isloggedin ? "online" : "offline";
+// console.log(status);
+
+
+// const ageStar = "25";
+// const ageNum = Number(ageStar);
+
+// console.log(ageNum);
+// console.log(typeof ageNum);
+
+const hamzaScore = 95;
+let grade ;
+
+// hamza
+if (hamzaScore >= 90) {
+     grade = 'A';
+} else if(hamzaScore >= 80) {
+     grade = 'B';
+} else if(hamzaScore >= 70) {
+     grade = 'C';
+} else if(hamzaScore >= 60) {
+      grade = 'F';
 } else {
-    status = "offline";
+ grade = 'F';
 }
-console.log(status);
+
+console.log(`Hamza: ${hamzaScore} Grade ${grade}`);
 
 
 
 
 
-// turnary operator
-const isloggedin = true;
 
-const status = isloggedin ? "online" : "offline";
 
-console.log(status);
+
+
+
+
+
+
+
+
+
+
 
 
 
